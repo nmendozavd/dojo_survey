@@ -1,0 +1,17 @@
+<!Doctype html>
+<html>
+<head>
+    <title>Results of survey</title>
+</head>
+<body>
+    <h1>Submitted info:</h1>
+    <p>Name:{{session['name']}}</p>
+    <p>Location: {{session['location']}}</p>
+    <p>Language: {{session['language']}}</p>
+    <p>Comment: {{session['comment']}}</p>
+
+     <form action='/'>
+        <button>Go back</button>
+    </form>
+</body>
+</html>
